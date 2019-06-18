@@ -37975,7 +37975,7 @@ Y.CX.prototype={
 N:function(a){var u=null,t="GoogleSansRegular",s=C.bs.j(0,800),r=[N.am],q=new Q.az(30,30)
 return M.aZ(u,T.eI(H.h([new T.b1(C.aK,L.bt("Skills",A.bc(u,u,C.j,u,u,u,u,t,u,50,u,u,u,u,!0,u,u,u,u,u,u)),u),new T.dy(u,40,u,u),T.lP(H.h([M.aZ(u,U.br("java.png"),u,u,u,u,120,u,u,u,u),M.aZ(u,U.br("android.png"),u,u,u,u,120,u,u,u,u),M.aZ(u,U.br("flutter.ico"),u,u,u,u,120,u,u,u,u),M.aZ(u,U.br("py.png"),u,u,u,u,120,u,u,u,u),M.aZ(u,U.br("firebase.png"),u,u,u,u,120,u,u,u,u)],r),C.ao,C.cn,C.aq),new T.dy(u,50,u,u),M.aZ(u,T.eI(H.h([new T.b1(C.aK,L.bt("Looking for a quick learning developer? Thats me!",A.bc(u,u,C.j,u,u,u,u,t,u,50,u,u,u,u,!0,u,u,u,u,u,u)),u),new T.b1(C.ax,D.py(L.bt("Resume",A.bc(u,u,C.bs.j(0,800),u,u,u,u,t,u,30,u,u,u,u,!0,u,u,u,u,u,u)),C.j,new Y.CY(),new X.bh(C.n,new K.aG(q,q,q,q))),u)],r),C.a4),u,u,u,u,u,u,u,u,u)],r),C.a4),s,u,u,u,u,u,u,u,u)}}
 Y.CY.prototype={
-$0:function(){C.z.dX(window,"https://drive.google.com/open?id=1oDV9DOqWUyNdZZhzV73Dj7zfTzi_2oRu","Resume")},
+$0:function(){C.z.dX(window,"https://drive.google.com/uc?export=download&id=1oDV9DOqWUyNdZZhzV73Dj7zfTzi_2oRu","Resume")},
 $C:"$0",
 $R:0,
 $S:0}
