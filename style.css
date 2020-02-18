@@ -1,0 +1,49 @@
+#mainNavbar .nav-link{
+	font-size: 1.6rem;
+	color: white;
+}
+#mainNavbar .nav-link:hover{
+	font-size: 1.4rem;
+}
+#mainNavbar .navbar-brand{
+	color: white;
+	font-size: 1.8rem;
+}
+#home{
+	background: url("imgs/home.jpg") no-repeat center;
+	background-size: cover;
+	height: 711px;
+	font-family: 'Monoton', cursive;
+	color: white;
+}
+#about{
+	height: 711px;
+	padding-top: 50px;
+}
+#contact{
+	height: 711px;
+	padding-top: 100px;
+}
+#work{
+	padding-top: 100px;
+}
+#about .jumbotron{
+	background: transparent;
+}
+
+.navbar.scrolled{
+	background: #f0ad4e;
+	transition: background 700ms;
+}
+#tagline{
+	padding-top:280px;
+}
+.display-4{
+	font-family: 'Monoton', cursive;
+}
+#icons{
+	font-size: 3rem;
+}
+#icons a{
+	color: #292b2c;
+}
