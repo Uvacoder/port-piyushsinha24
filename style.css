@@ -20,6 +20,12 @@
 	height: 711px;
 	padding-top: 50px;
 }
+#about .img-fluid{
+	width: 100%;
+  	max-width: 250px;
+  	height: auto;
+  	border-radius: 30%;
+}
 #contact{
 	height: 711px;
 	padding-top: 100px;
@@ -46,4 +52,7 @@
 }
 #icons a{
 	color: #292b2c;
+}
+#btn:active{
+	transform: translateY(4px);
 }
