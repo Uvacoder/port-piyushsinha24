@@ -12,7 +12,7 @@
 #home{
 	background: url("imgs/home.jpg") no-repeat center;
 	background-size: cover;
-	height: 711px;
+	height: 100vh;
 	font-family: 'Monoton', cursive;
 	color: white;
 }
@@ -27,7 +27,7 @@
 	margin-bottom: 1rem;
 }
 #contact{
-	height: 711px;
+	height: 100vh;
 	padding-top: 100px;
 }
 #work{
