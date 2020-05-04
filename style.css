@@ -24,9 +24,10 @@
   	max-width: 250px;
   	height: auto;
   	border-radius: 30%;
+	margin-bottom: 1rem;
 }
 #contact{
-	height: 711px;
+	height: 100vh;
 	padding-top: 100px;
 }
 #work{
