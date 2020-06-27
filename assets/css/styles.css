@@ -9,6 +9,7 @@
 html {
 	font: normal 16px "Open Sans", sans-serif;
 	color: #555;
+	-webkit-tap-highlight-color: transparent;
 }
 
 ul,nav {
@@ -149,7 +150,7 @@ section p {
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 24px;
   }
-  
+
   .active {
 	display: block;
 	 background-color: #283149; 
@@ -361,12 +362,12 @@ section p {
 	background-image: url(../img/devfest.jpg);
 }
 
-.projects .grid li.mountain {
-	background-image: url(../img/mountainTravel.jpg);
+.projects .grid li.git-space {
+	background-image: url(../img/git-space.jpg);
 }
 
-.projects .grid li.lifeshare {
-	background-image: url(../img/lifeshare.jpg);
+.projects .grid li.lights-out {
+	background-image: url(../img/lights-out.jpg);
 }
 
 .projects .grid li div {
@@ -401,8 +402,8 @@ section p {
 
 .projects .grid li:hover {
 	background-image: none;
-	background-color: #283149;
-	transition: all 0.5s ease-in;
+	background-color: hsl(224, 29%, 22%);
+	/* transition: all 0.5s ease-in; */
 }
 
 .projects .grid li:hover div {
