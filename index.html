@@ -1,157 +1,337 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title>Piyush Sinha | Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Piyush Sinha | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+   <!-- Template css Files -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/skins/red.css" type="text/css">
+  <!-- Font Awesome Icons -->
+  <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
 </head>
 <body>
-  <nav class="navbar" id="js-nav">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fa fa-bars"></i>
-        </span>
-   <a href="#" class="brand"> <i class="fa fa-code"></i></a>
-    <ul class="main-nav" id="js-menu">
-      <li id="about-nav">
-        <a href="#about" class="nav-links">About</a>
-      </li>
-      <li id="skills-nav">
-        <a href="#skills" class="nav-links">Skills</a>
-      </li>
-      <li id="projects-nav">
-        <a href="#projects" class="nav-links">Projects</a>
-      </li>
-      <li id="contact-nav">
-        <a href="#contact" class="nav-links">Contact</a>
-      </li> 
-    </ul>
-  </nav>
+  <div class="preloader">
+    <div class="loader">
 
-  <section class="hero">
-    <div id="particles-js"></div>
-    <div class="hero-content-area">
-      <img class="display-picture" src="assets/img/pic1.jpg" alt="Display Picture">
-      <h1>Piyush Sinha</h1>
     </div>
-  </section>
-
-  <section class="about" id="about">
-    <h3 class="title">About</h3>
-    <p>I'm pursuing a B.tech degree in the field of Computer Science & Engineering  as well as self-taught concepts in Mobile & Web development. I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding, tweeting or pushing pixels, you'll find me traveling.</p>
-    <p>So are you looking for a hard-working, communicative & caring developer? I am super excited to work on ambitious projects with positive people. Check out my resume or contact me below</p>
-    <hr>
-    <div class="btn-group">
-      <a href="https://drive.google.com/file/d/1Q_KZuygYo_wS_7Mf079bFiHkCJIMDDHf/view?usp=sharing" class="btn resume">Resume</a>
-    <a href="https://www.linkedin.com/in/dev-ps/" class="btn contact">Connect</a>
-    </div>
-  </section>
-
-  <section class="skills" id="skills">
-    <h3 class="title">Skills</h3>
-     <div class="domains">
-      <div class="card">
-        <h4><i class="lnr lnr-laptop-phone"></i></h4>
-        <h4>Frontend</h4>
-        <ul>
-          <li><i class="fa fa-check"></i> Flutter</li>
-          <li><i class="fa fa-check"></i> React.js</li>
-          <li><i class="fa fa-check"></i> Javascript</li>
-          <li><i class="fa fa-check"></i> jQuery</li>
-          <li><i class="fa fa-check"></i> Bootstrap</li>
-        </ul>
+  </div>
+  <div class="main-container">
+    <div class="aside">
+      <div class="nav-toggler">
+        <span></span>
       </div>
-      <div class="card">
-       <h4><i class="lnr lnr-database"></i></h4>
-       <h4>Backend</h4>
-       <ul>
-        <li><i class="fa fa-check"></i> Node.js</li>
-        <li><i class="fa fa-check"></i> Express.js</li>
-        <li><i class="fa fa-check"></i> MongoDB</li>
-        <li><i class="fa fa-check"></i> Firebase</li>
-        <li><i class="fa fa-check"></i> Passport.js</li>
-      </ul>
-     </div>
-     <div class="card">
-      <h4><i class="lnr lnr-cog"></i></h4>
-      <h4>Others</h4>
-      <ul>
-        <li><i class="fa fa-check"></i> Github</li>
-        <li><i class="fa fa-check"></i> Heroku</li>
-        <li><i class="fa fa-check"></i> UI/UX</li>
-        <li><i class="fa fa-check"></i> Figma</li>
-        <li><i class="fa fa-check"></i> Adobe XD</li>
-        <li></li>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#skills"><i class="fa fa-cogs"></i> Skills</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#blog"><i class="fas fa-keyboard"></i> Blog</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
       </ul>
     </div>
-     </div>
-  </section>
-
-  <section class="projects" id="projects">
-    <h3 class="title">Projects</h3>
-    <ul class="grid">
-      <ul class="grid">
-        <li class="small quizadda">
-          <div>
-            <h2>QuizAdda</h2>
-            <p>Test your knowledge in many different categories and sharpen your skills with QuizAdda app. Free to use, user-contributed trivia question database from opentdb API.</p>
-            <a href="https://play.google.com/store/apps/details?id=devPS.quizadda" class="btn">Download</a>
+    <div class="main-content">
+      <!-- Home -->
+      <section class="home section active" id="home">
+          <div class="container">
+            <div class="intro">
+              <img class="shadow-dark" src="images/about.jpg" alt="profile">
+              <h1>Piyush Sinha</h1>
+              <p>Web Developer & Flutter Evangelist</p>
+              <div class="social-links">
+                <a href="https://www.facebook.com/piyush.sinha.549" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/dev-ps/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/piyushsinha24" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@piyush.sinha24" target="_blank"><i class="fab fa-medium"></i></a>
+                <a href="https://twitter.com/devps2020" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
           </div>
-        </li>
-        <li class="large devfest">
-          <div>
-            <h2>GDG DevFest Kolkata</h2>
-            <p>DevFest Kolkata’19 is the 2nd edition of the greatest technical extravaganza of GDG Kolkata. Tread your way through the series of events lined up for you via the official DevFest App.</p>
-            <a href="https://play.google.com/store/apps/details?id=gdg.devfest19" class="btn">Download</a>
+      </section>
+      <!-- About -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
           </div>
-        </li>
-        <li class="large git-space">
-          <div>
-            <h2>Git-Space</h2>
-            <p>Fully responsive web application to view Github's user profile in a more simple and beautiful way. Built using React.js, React-Bootstrap & Github API. </p>
-            <a href="https://git-space.netlify.app/" class="btn">Visit</a>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>Namaste!</h3>
+                  <p>I'm a B.Tech graduate in the field of <span>Computer Science & Engineering</span> as well as self-taught concepts in <span>Android & Web</span>  development. I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not coding, tweeting or pushing pixels, you'll find me traveling. So are you looking for a hard-working, communicative & caring developer? Check out my resume or contact me below.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <div class="info-item padd-15">
+                      <p>Birthday : <span>2nd April, 1997</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Degree : <span>B.Tech</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Languages : <span>English, Hindi</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Phone : <span>+91-9073400603</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="https://drive.google.com/file/d/1Q_KZuygYo_wS_7Mf079bFiHkCJIMDDHf/view?usp=sharing" class="btn" target="_blank">Download CV</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </li>
-        <li class="small lights-out">
-          <div>
-            <h2>Lights-Out</h2>
-            <p>Lights Out is a puzzle game consisting of a 5 x 5 grid of lights that are either on or off. The goal of the puzzle is to switch all the lights off.</p>
-            <a href="http://piyushsinha.online/Lights-Out-React/" class="btn">Visit</a>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Skills</h2>
+            </div>
+            <div class="row">
+              <div class="skills-item padd-35">
+                <div class="skills-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop"></i>
+                  </div>
+                  <h4>Frontend</h4>
+                  <ul>
+                    <li><i class="fa fa-check"></i> Flutter</li>
+                    <li><i class="fa fa-check"></i> React.js</li>
+                    <li><i class="fa fa-check"></i> Javascript</li>
+                    <li><i class="fa fa-check"></i> jQuery</li>
+                    <li><i class="fa fa-check"></i> Bootstrap</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="skills-item padd-35">
+                <div class="skills-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-database"></i>
+                  </div>
+                  <h4>Backend</h4>
+                  <ul>
+                    <li><i class="fa fa-check"></i> Node.js</li>
+                    <li><i class="fa fa-check"></i> Express.js</li>
+                    <li><i class="fa fa-check"></i> MongoDB</li>
+                    <li><i class="fa fa-check"></i> Firebase</li>
+                    <li><i class="fa fa-check"></i> Socket.io</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="skills-item padd-35">
+                <div class="skills-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-cog"></i>
+                  </div>
+                  <h4>Others</h4>
+                  <ul>
+                    <li><i class="fa fa-check"></i> Github</li>
+                    <li><i class="fa fa-check"></i> Heroku</li>
+                    <li><i class="fa fa-check"></i> UI/UX</li>
+                    <li><i class="fa fa-check"></i> Figma</li>
+                    <li><i class="fa fa-check"></i> Adobe XD</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-        </li>
-      </ul>
-    </ul>
-  </section>
-
-  <section class="contact" id="contact">
-    <h3 class="title">Contact</h3>
-      <form action="javascript:onClick();">
-        <input type="text" name="message" id="message" placeholder="Message" required>
-        <button type="submit">Send</button>
-      </form>
-  </section>
-
-  <footer>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/dev-ps/"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-      <li><a href="https://github.com/piyushsinha24"><i class="fa fa-github-square fa-2x"></i></a></li>
-      <li><a href="https://twitter.com/devps2020"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-      <li><a href="https://www.facebook.com/piyush.sinha.549"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-    </ul>
-  </footer>
-
+        </div>
+      </section>
+      <!-- Portfolio -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-filter padd-15">
+              <button type="button" class="active" data-filter="all">All</button>
+              <button type="button" data-filter="android">Android</button>
+              <button type="button" data-filter="web">Web</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-item padd-15" data-category="android">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/1.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>GDG Devfest Kolkata'19</h4>
+                  <div class="icon">
+                    <a href="https://play.google.com/store/apps/details?id=gdg.devfest19" target="_blank"><i class="fab fa-google-play"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15" data-category="android">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/2.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>QuizAdda</h4>
+                  <div class="icon">
+                    <a href="https://play.google.com/store/apps/details?id=devPS.quizadda" target="_blank"><i class="fab fa-google-play"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15" data-category="web">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/3.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Lights Out</h4>
+                  <div class="icon">
+                    <a href="http://piyushsinha.me/Lights-Out-React/" target="_blank"><i class="fab fa-chrome"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15" data-category="web">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/4.jpg" alt="portfolio">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Git Space</h4>
+                  <div class="icon">
+                    <a href="https://git-space.netlify.app" target="_blank"><i class="fab fa-chrome"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Blogs -->
+        <section class="blog section" id="blog">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Blogs</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="images/blog/1.png" alt="blog">
+                    <div class="blog-date">Sept 27, 2019</div>
+                  </div>
+                  <div class="blog-info">
+                    <a href="https://medium.com/flutter-community/implementing-bloc-pattern-using-flutter-bloc-62a62e0319b5" target="_blank"><h4 class="blog-title">Implementing BLoC Pattern</h4></a>
+                    <p class="blog-description">In this blog we will learn how to implement BLoC pattern using flutter_bloc package.</p>
+                    <p class="blog-tags">Tags: <span>BLoC Pattern, Flutter</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="images/blog/2.png" alt="blog">
+                    <div class="blog-date">Sept 2, 2019</div>
+                  </div>
+                  <div class="blog-info">
+                    <a href="https://medium.com/flutter-community/google-maps-in-flutter-ii-260f43db5924" target="_blank"><h4 class="blog-title">Google Maps in Flutter - II</h4></a>
+                    <p class="blog-description">In this blog we will discuss Geocoding and fetching markers from Cloud Firestore.</p>
+                    <p class="blog-tags">Tags: <span>Google Maps API, Firebase, Flutter</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="images/blog/2.png" alt="blog">
+                    <div class="blog-date">Aug 31, 2019</div>
+                  </div>
+                  <div class="blog-info">
+                    <a href="https://medium.com/flutter-community/google-maps-in-flutter-i-feeb72354392" target="_blank"><h4 class="blog-title">Google Maps in Flutter - I</h4></a>
+                    <p class="blog-description">This blog shows you how to add a Google Map widget to your Flutter application.</p>
+                    <p class="blog-tags">Tags: <span>Google Maps API, Flutter</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact</h2>
+              </div>
+            </div>
+            <div class="row">
+              <form class="contact-form padd-15" action="javascript:onClick();"> 
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="email" placeholder="Email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="subject" placeholder="Subject">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea  class="form-control" id="message" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 padd-15">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>  
+    </div>
+  </div>
+  <!-- Template js -->
+  <script src="js/script.js"></script>
   <script>
     function onClick(){
-    var msg=document.getElementById('message').value;
-    window.location.href = "mailto:" + "piyush.sinha24@gmail.com" +"?body=" + msg;
+    let msg = document.getElementById('message').value;
+    let sub = document.getElementById('subject').value;
+    let email = document.getElementById('email').value;
+    let name = document.getElementById('name').value;
+    window.location.href = "mailto:" + "piyush.sinha24@gmail.com" +"?subject=" + sub +"&body=" + msg;
 }
   </script>
 </body>
 </html>
+

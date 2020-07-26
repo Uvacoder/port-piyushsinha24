@@ -1,0 +1,35 @@
+.aside .logo a::before {
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+
+.aside .logo a::after {
+    border-bottom: 4px solid #ec1839;
+    border-right: 4px solid #ec1839;
+}
+
+.blog .blog-item-inner .blog-info .blog-tags span,
+.portfolio .portfolio-item .portfolio-info .icon .fab,
+.portfolio .portfolio-filter button.active,
+.skills .skills-item .skills-item-inner .icon .fa,
+.about .about-content .about-text p span,
+.aside .nav li a:hover,
+.aside .nav li a.active {
+    color: #ec1839;
+}
+
+.btn,
+.blog .blog-item-inner .blog-img .blog-date,
+.skills .skills-item .skills-item-inner:hover .icon,
+.section-title h2::before,
+.section-title h2::after,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a {
+    background-color: #ec1839;
+}
+
+.portfolio .portfolio-filter button.active {
+    border-color: #ec1839 ;
+}
